@@ -2,6 +2,24 @@
 
 A gem wrapper to ease the use of the Blueprint CSS framework (http://www.blueprintcss.org)
 
+== Installation
+
+* sugo gem install blueprintr
+
+== Usage
+
+The Blueprintr gem gives a 'blueprintr' command that passes arguments to the compressor.rb (http://jdclayton.com/blueprints_compress_a_walkthrough.html) from the Blueprint project. All of the options one can pass to compressor.rb may be passed to blueprintr.
+
+  -f=SETTINGS_FILE                 Specify a non-default settings file path.
+      --settings_file
+  -o, --output_path=OUTPUT_PATH    Define a different path to output generated CSS files to. Default is current working directory.
+  -n, --namespace=BP_NAMESPACE     Define a namespace prepended to all Blueprint classes (e.g. .your-ns-span-24)
+  -p, --project=PROJECT_NAME       If using the settings.yml file, PROJECT_NAME is the project name you want to export
+      --column_width=COLUMN_WIDTH  Set a new column width (in pixels) for the output grid
+      --gutter_width=GUTTER_WIDTH  Set a new gutter width (in pixels) for the output grid
+      --column_count=COLUMN_COUNT  Set a new column count for the output grid
+  -h, --help                       Show this help message.
+  
 == Note on Patches/Pull Requests
  
 * Fork the project.
