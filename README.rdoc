@@ -1,4 +1,4 @@
-= blueprintr
+= Blueprintr
 
 A gem wrapper to ease the use of the Blueprint CSS framework (http://www.blueprintcss.org)
 
